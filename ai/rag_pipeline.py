@@ -1,6 +1,6 @@
-from retriever import retrieve_documents
-from prompt import build_prompt
-from llm import get_llm_response
+from ai.retriever import retrieve_documents
+from ai.prompt import build_prompt
+from ai.llm import get_llm_response
 
 
 # Generate answer using RAG pipeline

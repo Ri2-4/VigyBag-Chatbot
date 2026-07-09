@@ -1,6 +1,6 @@
 from langchain_chroma import Chroma
 
-from embeddings import get_embedding_model
+from ai.embeddings import get_embedding_model
 
 
 # Retrieve similar documents from ChromaDB
